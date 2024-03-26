@@ -23,5 +23,5 @@ public abstract class Empleado {
         this.salario = salario;
     }
 
-    public abstract float calcular_pago();
+    public abstract float calcular_pago(float salario);
 }
